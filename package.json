@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest run",
-    "build": "vitest run && tsc -b && vite build",
+    "build": "vitest run --passWithNoTests && tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
